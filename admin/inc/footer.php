@@ -63,9 +63,8 @@
         <strong>Copyright © <?php echo date('Y') ?>. 
         <!-- <a href=""></a> -->
         </strong>
-        All rights reserved.
         <div class="float-right d-none d-sm-inline-block">
-          <b><?php echo $_settings->info('short_name') ?> (by: <a href="https://compubinario.com/categoria/sistemas-gratis/" target="blank">CompuBinario</a> )</b> v1.0
+          <b><?php echo $_settings->info('short_name') ?> (by: <a href="" target="blank">Chehin Ingeniería</a> )</b>
         </div>
       </footer>
     </div>

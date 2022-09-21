@@ -18,9 +18,9 @@
 </style>
 <div class="card card-outline card-primary">
 	<div class="card-header">
-		<h3 class="card-title">List of Templates</h3>
+		<h3 class="card-title">Listado de plantillas</h3>
 		<div class="card-tools">
-			<a href="?page=templates/manage_template" class="btn btn-flat btn-primary"><span class="fas fa-plus"></span>  Create New Template</a>
+			<a href="?page=templates/manage_template" class="btn btn-flat btn-primary"><span class="fas fa-plus"></span>  Crear nueva plantilla</a>
 		</div>
 	</div>
 	<div class="card-body">

@@ -58,7 +58,7 @@ if(isset($_GET['id'])){
 </style>
 <div class="card card-outline card-primary">
 	<div class="card-header">
-		<h3 class="card-title"><?php echo isset($id) ? "You are using ".$name." Template": (isset($meta['id']) ? "Update ID" : "") ?></h3>
+		<h3 class="card-title"><?php echo isset($id) ? "Tu estas usando ".$name." Template": (isset($meta['id']) ? "Update ID" : "") ?></h3>
 	</div>
 	<div class="card-body">
 		<form action="" id="generate-form">
