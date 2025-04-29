@@ -94,8 +94,8 @@ if($_settings->userdata('type') == 3){
 		</form>
 	</div>
 	<div class="card-footer">
-		<button class="btn btn-flat btn-primary" form="leave_application-form">Save</button>
-		<a class="btn btn-flat btn-default" href="?page=leave_applications">Cancel</a>
+		<button class="btn btn-flat btn-primary" form="leave_application-form">Guardar</button>
+		<a class="btn btn-flat btn-default" href="?page=leave_applications">Cancelar</a>
 	</div>
 </div>
 <script>
@@ -162,7 +162,7 @@ var _this = $(this)
                 dataType: 'json',
 				error:err=>{
 					console.log(err)
-					alert_toast("An error occured",'error');
+					alert_toast("Ocurrio un problema",'error');
 					end_loader();
 				},
 				success:function(resp){
@@ -176,7 +176,7 @@ var _this = $(this)
                             $("html, body").animate({ scrollTop: 0 }, "fast");
                             end_loader()
                     }else{
-						alert_toast("An error occured",'error');
+						alert_toast("Ocurrio un problema",'error');
 						end_loader();
                         console.log(resp)
 					}

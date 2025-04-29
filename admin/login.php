@@ -11,7 +11,7 @@
   <script>
     start_loader()
   </script>
-  <h1 class="text-center pb-4 mb-4 text-dark page-header"><?php echo $_settings->info('name') ?> <br>Logueo Panel</h1>
+  <h1 class="text-center pb-4 mb-4 text-dark page-header"><?php echo $_settings->info('name') ?> <br>Panel</h1>
 <div class="login-box">
   <!-- /.login-logo -->
   <div class="card card-primary">
@@ -35,11 +35,11 @@
         </div>
         <div class="row justify-content-between">
           <div class="col">
-            <a href="<?php echo base_url ?>">Go to Portal</a>
+            <a href="<?php echo base_url ?>">Ir al portal</a>
           </div>
           <!-- /.col -->
           <div class="col text-right">
-            <button type="submit" class="btn btn-primary btn-flat btn-sm">Sign In</button>
+            <button type="submit" class="btn btn-primary btn-flat btn-sm">Acceso</button>
           </div>
           <!-- /.col -->
         </div>

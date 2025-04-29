@@ -29,7 +29,7 @@
             url:$url,
             error:err=>{
                 console.log()
-                alert("An error occured")
+                alert("Ocurrio un problema")
             },
             success:function(resp){
                 if(resp){
@@ -119,6 +119,6 @@
         <div class="calendar-table"></div>
         <div class="calendar-time" style="display: none;"></div>
       </div>
-      <div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div>
+      <div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancelar</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div>
     </div>
     <div class="jqvmap-label" style="display: none; left: 1093.83px; top: 394.361px;">Idaho</div>

@@ -35,7 +35,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
             </div>
             <div class="form-group d-flex justify-content-end">
                     <button class="btn btn-info btn-sm round-0 mr-2">Go</button>
-                    <a class="btn btn-dark btn-sm round-0" href="./">Cancel</a>
+                    <a class="btn btn-dark btn-sm round-0" href="./">Cancelar</a>
             </div>
     </form>
 </div>

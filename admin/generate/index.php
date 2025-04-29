@@ -81,8 +81,8 @@ if(isset($_GET['id'])){
 		<input type="file" id="upload" data-id="" onchange="displayImg(this,$(this))" class="d-none">
 	</div>
 	<div class="card-footer">
-		<button class="btn btn-info rounded-0" type="button" id="save-generated">Save</button>
-		<a class="btn btn-dark rounded-0" href="./">Cancel</a>
+		<button class="btn btn-info rounded-0" type="button" id="save-generated">Guardar</button>
+		<a class="btn btn-dark rounded-0" href="./">Cancelar</a>
 	</div>
 </div>
 <script>
@@ -144,7 +144,7 @@ if(isset($_GET['id'])){
 		    dataType: 'json',
 			error:err=>{
 					console.log(err)
-					alert_toast("An error occured",'error');
+					alert_toast("Ocurrio un problema",'error');
 					end_loader();
 				},
 			success:function(resp){
@@ -172,7 +172,7 @@ if(isset($_GET['id'])){
 						el.show('slow')
 						$("html, body").animate({ scrollTop: 0 }, "fast");
 				}else{
-					alert_toast("An error occured",'error');
+					alert_toast("Ocurrio un problema",'error');
 					console.log(resp)
 				}
                 end_loader()

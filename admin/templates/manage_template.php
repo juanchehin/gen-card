@@ -112,8 +112,8 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 	<div class="card-footer">
 			<div class="col-md-12">
 				<div class="row">
-					<button class="btn btn-sm btn-primary mr-2" form="template-form">Save</button>
-					<a class="btn btn-sm btn-secondary" href="./?page=templates">Cancel</a>
+					<button class="btn btn-sm btn-primary mr-2" form="template-form">Guardar</button>
+					<a class="btn btn-sm btn-secondary" href="./?page=templates">Cancelar</a>
 				</div>
 			</div>
 		</div>
@@ -182,7 +182,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 		    dataType: 'json',
 			error:err=>{
 					console.log(err)
-					alert_toast("An error occured",'error');
+					alert_toast("Ocurrio un problema",'error');
 					end_loader();
 				},
 			success:function(resp){
@@ -195,7 +195,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 						el.show('slow')
 						$("html, body").animate({ scrollTop: 0 }, "fast");
 				}else{
-					alert_toast("An error occured",'error');
+					alert_toast("Ocurrio un problema",'error');
 					console.log(resp)
 				}
                 end_loader()

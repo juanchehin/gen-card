@@ -23,12 +23,12 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 <div class="container-fluid">
     <form action="" id="save-from">
             <div class="form-group">
-                <label for="filename" class="control-label">File Name</label>
+                <label for="filename" class="control-label">Nombre del archivo</label>
                 <input type="text" required name="filename" pattern="[a-zA-Z0-9]+" id="filename" value="<?php echo isset($_GET['name']) ? $_GET['name'] : "" ?>" class="form-control">
             </div>
             <div class="form-group d-flex justify-content-end">
-                    <button class="btn btn-info btn-sm round-0 mr-2">Save</button>
-                    <button class="btn btn-dark btn-sm round-0" type="button" data-dismiss="modal">Cancel</button>
+                    <button class="btn btn-info btn-sm round-0 mr-2">Ahorrar</button>
+                    <button class="btn btn-dark btn-sm round-0" type="button" data-dismiss="modal">Cancelar</button>
             </div>
     </form>
 </div>

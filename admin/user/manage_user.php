@@ -60,8 +60,8 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 	<div class="card-footer">
 			<div class="col-md-12">
 				<div class="row">
-					<button class="btn btn-sm btn-primary mr-2" form="manage-user">Save</button>
-					<a class="btn btn-sm btn-secondary" href="./?page=user/list">Cancel</a>
+					<button class="btn btn-sm btn-primary mr-2" form="manage-user">Guardar</button>
+					<a class="btn btn-sm btn-secondary" href="./?page=user/list">Cancelar</a>
 				</div>
 			</div>
 		</div>
